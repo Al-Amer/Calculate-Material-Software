@@ -42,7 +42,6 @@ public class Shop_windows extends JPanel {
         btn_deleteAll.setFont(new Font("arial", Font.BOLD, 20));
         btn_save.setForeground(Color.green);
         btn_save.setFont(new Font("arial", Font.BOLD, 20));
-
         label_material_name.setBounds(40, 50, 50, 20);
         label_material_price.setBounds(40, 90, 50, 20);
         textField_material_name.setBounds(100, 50, 120, 20);
@@ -124,19 +123,5 @@ public class Shop_windows extends JPanel {
 
     }
 }
-
-
-/*
-    label_material_name.setBounds(40, 50, 50, 20);
-        label_material_price.setBounds(40, 90, 50, 20);
-        textField_material_name.setBounds(100, 50, 120, 20);
-        textField_material_price.setBounds(100, 90, 120, 20);
-        btn_add.setBounds(150, 180, 70, 30);
-        btn_clear.setBounds(70, 180, 70, 30);
-        tableScroller.setBounds(280, 50, 370, 160);
-        btn_delete.setBounds(315, 250, 140, 30);
-        btn_deleteAll.setBounds(470, 250, 140, 30);
-        btn_save.setBounds(300, 300, 320, 30);
- */
 
 
