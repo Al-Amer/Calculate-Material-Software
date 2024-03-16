@@ -98,10 +98,12 @@ public class Shop_windows extends JPanel {
             }
         });
         // Button Delete All
-        /*
-
-
-         */
+        btn_deleteAll.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                model.setRowCount(0);
+            }
+        });
         // Button Save
         // make File and save all the Info in Model/ Table (JTable)
         btn_save.addActionListener(new ActionListener() {
